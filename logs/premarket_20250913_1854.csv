@@ -1,0 +1,4 @@
+ticker,open,close,premarket_gap_pct,premarket_volume,intraday_return_pct,volatility_pct,market_cap,forward_PE,beta
+TSLA,370.94,395.94,0.5396,0,6.7396,0.2763,1277084696576,122.203705,2.065
+NVDA,177.77,177.82,0.0395,0,0.0281,0.039,4329383919616,43.1602,2.102
+AAPL,229.22,234.07,-0.1348,0,2.1159,0.0475,3473692426240,28.167269,1.109

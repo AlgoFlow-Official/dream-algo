@@ -1,0 +1,5 @@
+# Ignore sensitive credentials
+*.json
+*.key
+credentials.json
+my-algo-sheets-*.json

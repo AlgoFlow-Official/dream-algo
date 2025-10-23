@@ -1,0 +1,6 @@
+ticker,price,change_pct,volume,signal,confidence,sentiment
+AAPL,454.87,-0.01,3880109,sell,80,0.67
+NVDA,134.64,-2.25,6971421,buy,74,-0.7
+TSLA,494.2,-2.29,8591551,sell,80,0.55
+AMD,348.93,2.05,6145651,sell,69,-0.6
+META,351.37,-2.15,1405776,sell,70,0.41

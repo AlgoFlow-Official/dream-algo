@@ -1,0 +1,4 @@
+timestamp,Ticker,Price,Change%,Volume,Signal,Confidence
+2025-10-14 23:44,AAPL,187.32,0.85,5432100,buy,92
+2025-10-14 23:44,MSFT,327.1,-0.2,3210000,sell,80
+2025-10-14 23:44,TSLA,254.61,1.45,4512000,buy,88

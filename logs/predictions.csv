@@ -1,0 +1,4 @@
+ticker,premarket_gap_pct,premarket_volume,prediction,pop_probability
+TSLA,0.5396,0,0,0.5
+AAPL,-0.1348,0,0,0.38
+NVDA,0.0395,0,0,0.08

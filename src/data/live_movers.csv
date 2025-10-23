@@ -1,0 +1,151 @@
+ticker,name,price,pct_change,volume,market_cap,category,timestamp,signal,confidence,reason
+VICR,Vicor Corporation,85.76,30.334345,3370114,3362252544,Top Gainers,2025-10-22 19:12:24 EST,BUY,90,Premarket breakout momentum
+TNL,Travel   Leisure Co.,69.91,15.2299,2065958,4544669184,Top Gainers,2025-10-22 19:12:24 EST,BUY,89,Premarket breakout momentum
+PEGA,Pegasystems Inc.,65.59,14.96932,4832590,11221180416,Top Gainers,2025-10-22 19:12:24 EST,BUY,96,Premarket breakout momentum
+ISRG,"Intuitive Surgical, Inc.",527.03,13.893339,8315269,188927885312,Top Gainers,2025-10-22 19:12:24 EST,BUY,92,Premarket breakout momentum
+UUUU,Energy Fuels Inc,22.74,10.2278,39788937,5338355712,Top Gainers,2025-10-22 19:12:24 EST,BUY,90,Premarket breakout momentum
+AVY,Avery Dennison Corporation,179.04,9.4845,1840194,13961823232,Top Gainers,2025-10-22 19:12:24 EST,WATCH,79,Uptrend forming with solid volume
+HTFL,"Heartflow, Inc.",39.305,7.273474,513511,3277883904,Top Gainers,2025-10-22 19:12:24 EST,WATCH,84,Uptrend forming with solid volume
+PFSI,"PennyMac Financial Services, In",129.57,7.16235,1115803,6700069376,Top Gainers,2025-10-22 19:12:24 EST,WATCH,78,Uptrend forming with solid volume
+CELC,Celcuity Inc.,70.04,6.931299,1698470,2971566848,Top Gainers,2025-10-22 19:12:24 EST,WATCH,77,Uptrend forming with solid volume
+KNTK,Kinetik Holdings Inc.,38.98,6.64843,1524818,2396276480,Top Gainers,2025-10-22 19:12:24 EST,WATCH,84,Uptrend forming with solid volume
+SBSW,D/B/A Sibanye-Stillwater Limite,10.96,5.89372,9762251,8661899264,Top Gainers,2025-10-22 19:12:24 EST,WATCH,74,Uptrend forming with solid volume
+DK,"Delek US Holdings, Inc.",35.57,5.61164,1570904,2157409024,Top Gainers,2025-10-22 19:12:24 EST,WATCH,80,Uptrend forming with solid volume
+WDS,Woodside Energy Group Limited,15.27,5.60166,1392977,28993910784,Top Gainers,2025-10-22 19:12:24 EST,WATCH,73,Uptrend forming with solid volume
+FRPT,"Freshpet, Inc.",57.51,5.426213,1678567,2805330432,Top Gainers,2025-10-22 19:12:24 EST,WATCH,85,Uptrend forming with solid volume
+HGV,Hilton Grand Vacations Inc.,46.09,5.27639,900674,4061272320,Top Gainers,2025-10-22 19:12:24 EST,WATCH,74,Uptrend forming with solid volume
+STC,Stewart Information Services Co,75.19,5.16084,527479,2105209088,Top Gainers,2025-10-22 19:12:24 EST,WATCH,84,Uptrend forming with solid volume
+PBF,PBF Energy Inc.,29.48,5.06059,2530612,3492236544,Top Gainers,2025-10-22 19:12:24 EST,WATCH,86,Uptrend forming with solid volume
+OII,"Oceaneering International, Inc.",24.7,4.48393,666746,2475127808,Top Gainers,2025-10-22 19:12:24 EST,WATCH,86,Uptrend forming with solid volume
+BCS,Barclays PLC,20.35,4.41252,9631961,70879772672,Top Gainers,2025-10-22 19:12:24 EST,WATCH,73,Uptrend forming with solid volume
+CVI,CVR Energy Inc.,36.28,4.40287,1356158,3647249920,Top Gainers,2025-10-22 19:12:24 EST,WATCH,79,Uptrend forming with solid volume
+HAL,Halliburton Company,26.31,4.2393,21669085,22431961088,Top Gainers,2025-10-22 19:12:24 EST,WATCH,83,Uptrend forming with solid volume
+SLB,SLB Limited,34.9,4.11695,18631984,52140601344,Top Gainers,2025-10-22 19:12:24 EST,WATCH,80,Uptrend forming with solid volume
+BMA,Banco Macro S.A.,55.4,4.03756,801161,3700779264,Top Gainers,2025-10-22 19:12:24 EST,WATCH,77,Uptrend forming with solid volume
+BSX,Boston Scientific Corporation,103.85,3.95395,15920595,153879904256,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+DORM,"Dorman Products, Inc.",154.02,3.9341397,350564,4702884352,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+VAC,Marriott Vacations Worldwide Co,71.87,3.88841,755452,2486881792,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,64,Low volatility or sideways movement
+SF,Stifel Financial Corporation,116.69,3.83521,1659959,11922615296,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,63,Low volatility or sideways movement
+NXE,Nexgen Energy Ltd.,8.47,3.79903,13399398,5714170368,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+CERT,"Certara, Inc.",12.72,3.6674802,1825181,2043132032,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+APH,Amphenol Corporation,128.93,3.60816,22122551,158943969280,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,58,Low volatility or sideways movement
+EWBC,"East West Bancorp, Inc.",102.36,3.5927567,1838577,14107435008,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,69,Low volatility or sideways movement
+IRDM,Iridium Communications Inc,19.66,3.5827205,6378297,2086199680,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+SSL,Sasol Ltd.,5.52,3.56473,1014435,3598883840,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,65,Low volatility or sideways movement
+BP,BP p.l.c.,34.32,3.49819,6747439,88014692352,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,55,Low volatility or sideways movement
+HLT,Hilton Worldwide Holdings Inc.,275.06,3.42157,3197951,64692396032,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,55,Low volatility or sideways movement
+DINO,HF Sinclair Corporation,52.89,3.38155,1995542,10030075904,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+IMO,Imperial Oil Limited,88.12,3.36657,412257,44857044992,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,69,Low volatility or sideways movement
+INDV,Indivior PLC,24.9,3.3623888,1282403,3157064704,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,58,Low volatility or sideways movement
+FRO,Frontline Plc,23.59,3.32895,2685352,5373591552,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,68,Low volatility or sideways movement
+PKX,POSCO Holdings Inc.,53.09,3.32814,139852,16148678656,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,56,Low volatility or sideways movement
+EQNR,Equinor ASA,23.97,3.27445,3843975,60267184128,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,56,Low volatility or sideways movement
+WAL,Western Alliance Bancorporation,78.72,3.23935,2304505,8688233472,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,69,Low volatility or sideways movement
+DKNG,DraftKings Inc.,34.7,3.2123792,18126863,17473472512,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,62,Low volatility or sideways movement
+OMC,Omnicom Group Inc.,81.23,3.20163,6523891,15736111104,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,62,Low volatility or sideways movement
+PM,Philip Morris International Inc,156.86,3.19737,12554183,253901144064,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,56,Low volatility or sideways movement
+CWST,"Casella Waste Systems, Inc.",89.99,3.1758733,641181,5624578560,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,56,Low volatility or sideways movement
+CF,"CF Industries Holdings, Inc.",85.93,3.16965,2762724,13955099648,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+IPG,"Interpublic Group of Companies,",27.78,3.11804,10061073,10174880768,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,70,Low volatility or sideways movement
+FMX,Fomento Economico Mexicano S.A.,96.0,3.11493,408505,35987341312,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,63,Low volatility or sideways movement
+MPC,Marathon Petroleum Corporation,188.54,3.10056,1709632,57821499392,Top Gainers,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+HUT,Hut 8 Corp.,38.84,-17.220798,18538108,4233231616,Top Losers,2025-10-22 19:12:24 EST,SELL,93,Bearish reversal or heavy sell-off
+LEU,Centrus Energy Corp.,314.83,-16.4929,3368376,5780573696,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+QBTS,D-Wave Quantum Inc.,27.29,-15.2221,76073590,11114010624,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+OKLO,Oklo Inc.,120.12,-13.8554,33251660,20776235008,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+GLXY,Galaxy Digital Inc.,37.34,-12.879142,15574729,12385193984,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+QS,QuantumScape Corporation,13.58,-12.5,56348899,7607337984,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+DGNX,Diginex Limited,13.32,-12.368422,514939,2704031488,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+CIFR,Cipher Mining Inc.,16.11,-10.871369,62853758,6575951360,Top Losers,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+LII,"Lennox International, Inc.",493.07,-10.186,1938650,17318729728,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+CLSK,"CleanSpark, Inc.",16.86,-10.175812,35811457,4929689088,Top Losers,2025-10-22 19:12:24 EST,SELL,92,Bearish reversal or heavy sell-off
+NFLX,"Netflix, Inc.",1116.37,-10.068069,14521661,474374995968,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+RGTI,"Rigetti Computing, Inc.",36.06,-9.849997,114436825,13553854464,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+MTDR,Matador Resources Company,39.68,-9.63334,7499493,4939938816,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+BE,Bloom Energy Corporation,94.37,-9.58995,16215655,23588679680,Top Losers,2025-10-22 19:12:24 EST,SELL,87,Bearish reversal or heavy sell-off
+SMR,NuScale Power Corporation,34.72,-9.51263,38724679,5361178624,Top Losers,2025-10-22 19:12:24 EST,SELL,93,Bearish reversal or heavy sell-off
+BTDR,Bitdeer Technologies Group,21.42,-9.505703,9999903,4649115136,Top Losers,2025-10-22 19:12:24 EST,SELL,83,Bearish reversal or heavy sell-off
+NVTS,Navitas Semiconductor Corporati,13.605,-9.48104,54362228,2899324416,Top Losers,2025-10-22 19:12:24 EST,SELL,94,Bearish reversal or heavy sell-off
+ASTS,"AST SpaceMobile, Inc.",71.35,-9.235469,27513144,27391928320,Top Losers,2025-10-22 19:12:24 EST,SELL,84,Bearish reversal or heavy sell-off
+IESC,"IES Holdings, Inc.",359.98,-9.206013,162103,7147210240,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+ECG,"Everus Construction Group, Inc.",82.03,-9.06773,776963,4184069376,Top Losers,2025-10-22 19:12:24 EST,SELL,86,Bearish reversal or heavy sell-off
+NTLA,"Intellia Therapeutics, Inc.",24.58,-8.861696,6140215,2638586624,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+STRL,"Sterling Infrastructure, Inc.",332.75,-8.665462,772094,10217123840,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+USAR,"USA Rare Earth, Inc.",24.46,-8.492332,19152195,2888520704,Top Losers,2025-10-22 19:12:24 EST,SELL,83,Bearish reversal or heavy sell-off
+FRMI,Fermi Inc.,19.89,-8.383232,7692884,14784344064,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+SITM,SiTime Corporation,265.49,-8.375904,447405,6903794176,Top Losers,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+CVNA,Carvana Co.,326.88,-8.14623,5791555,38227636224,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+RIOT,"Riot Platforms, Inc.",18.99,-8.127723,19977325,7019143680,Top Losers,2025-10-22 19:12:24 EST,SELL,93,Bearish reversal or heavy sell-off
+BLSH,Bullish,52.63,-8.10197,3366803,7693650432,Top Losers,2025-10-22 19:12:24 EST,SELL,87,Bearish reversal or heavy sell-off
+CRSP,CRISPR Therapeutics AG,66.52,-8.019916,3175298,6050021888,Top Losers,2025-10-22 19:12:24 EST,SELL,94,Bearish reversal or heavy sell-off
+SYM,Symbotic Inc.,64.44,-7.797964,2041978,37305499648,Top Losers,2025-10-22 19:12:24 EST,SELL,83,Bearish reversal or heavy sell-off
+NNE,Nano Nuclear Energy Inc.,38.85,-7.6977944,6090570,2213452032,Top Losers,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+PATH,"UiPath, Inc.",15.03,-7.67814,25872799,7569445888,Top Losers,2025-10-22 19:12:24 EST,SELL,84,Bearish reversal or heavy sell-off
+EOSE,"Eos Energy Enterprises, Inc.",15.06,-7.607355,27364924,4204998912,Top Losers,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+AMSC,American Superconductor Corpora,54.78,-7.559905,1730029,2505643008,Top Losers,2025-10-22 19:12:24 EST,SELL,85,Bearish reversal or heavy sell-off
+CORZ,"Core Scientific, Inc.",17.8,-7.4362993,23196305,5470922240,Top Losers,2025-10-22 19:12:24 EST,SELL,88,Bearish reversal or heavy sell-off
+RKLB,Rocket Lab Corporation,60.565,-7.3929706,21982673,29700995072,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+BEAM,Beam Therapeutics Inc.,27.68,-7.3937745,3518483,2800164864,Top Losers,2025-10-22 19:12:24 EST,SELL,88,Bearish reversal or heavy sell-off
+BMNR,"BitMine Immersion Technologies,",48.03,-7.36741,36463501,12907704320,Top Losers,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+QUBT,Quantum Computing Inc.,14.87,-7.062501,51132051,3814821888,Top Losers,2025-10-22 19:12:24 EST,SELL,85,Bearish reversal or heavy sell-off
+WSO,"Watsco, Inc.",352.43,-7.0498,739171,14310605824,Top Losers,2025-10-22 19:12:24 EST,SELL,94,Bearish reversal or heavy sell-off
+TMC,TMC the metals company Inc.,7.26,-7.04225,12972130,4017781248,Top Losers,2025-10-22 19:12:24 EST,SELL,88,Bearish reversal or heavy sell-off
+METCB,"Ramaco Resources, Inc.",15.225,-6.9945045,126174,2512779264,Top Losers,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+MSTR,Strategy Inc,280.81,-6.9888396,14973669,77407789056,Top Losers,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+KTOS,Kratos Defense & Security Solut,84.3,-6.974177,4496362,14229377024,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+IONQ,"IonQ, Inc.",55.45,-6.80672,36544845,20378687488,Top Losers,2025-10-22 19:12:24 EST,SELL,86,Bearish reversal or heavy sell-off
+PONY,Pony AI Inc.,17.91,-6.9126816,10997957,6379826176,Top Losers,2025-10-22 19:12:24 EST,SELL,86,Bearish reversal or heavy sell-off
+FLY,Firefly Aerospace Inc.,26.24,-6.884317,1852919,3845190144,Top Losers,2025-10-22 19:12:24 EST,SELL,94,Bearish reversal or heavy sell-off
+BWXT,"BWX Technologies, Inc.",191.17,-6.85539,1763280,17472696320,Top Losers,2025-10-22 19:12:24 EST,SELL,82,Bearish reversal or heavy sell-off
+ROCK,"Gibraltar Industries, Inc.",69.49,-6.824891,898369,2050754688,Top Losers,2025-10-22 19:12:24 EST,SELL,92,Bearish reversal or heavy sell-off
+BBAI,"BigBear.ai, Inc.",6.61,-6.63842,147574123,3023954176,Top Losers,2025-10-22 19:12:24 EST,SELL,85,Bearish reversal or heavy sell-off
+F,Ford Motor Company,12.43,-1.03503,413869528,48588972032,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+BITF,Bitfarms Ltd.,3.94,-12.249437,153256394,2416571648,Most Active,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
+BBAI,"BigBear.ai, Inc.",6.61,-6.63842,147574123,3023954176,Most Active,2025-10-22 19:12:24 EST,SELL,87,Bearish reversal or heavy sell-off
+NVDA,NVIDIA Corporation,180.28,-0.48576114,161039698,4439188439040,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+OPEN,Opendoor Technologies Inc,6.82,-2.0114923,112294731,5206693888,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+PLUG,"Plug Power, Inc.",2.92,-6.4102507,111103486,3706247680,Most Active,2025-10-22 19:12:24 EST,SELL,90,Bearish reversal or heavy sell-off
+RGTI,"Rigetti Computing, Inc.",36.06,-9.849997,114436825,13553854464,Most Active,2025-10-22 19:12:24 EST,SELL,94,Bearish reversal or heavy sell-off
+DNN,Denison Mines Corp,2.72,0.0,99760799,2616983040,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,55,Low volatility or sideways movement
+T,AT&T Inc.,25.55,-1.91939,85497328,184726159360,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+RIG,Transocean Ltd (Switzerland),3.42,3.32327,77303033,3765392640,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,63,Low volatility or sideways movement
+INTC,Intel Corporation,36.92,-3.147956,85934420,175636480000,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,58,Low volatility or sideways movement
+QBTS,D-Wave Quantum Inc.,27.29,-15.2221,76073590,11114010624,Most Active,2025-10-22 19:12:24 EST,SELL,88,Bearish reversal or heavy sell-off
+SOFI,"SoFi Technologies, Inc.",27.19,-5.426085,71455652,32558669824,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,69,Low volatility or sideways movement
+TSLA,"Tesla, Inc.",438.97,-0.82015467,74396173,1459641516032,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,62,Low volatility or sideways movement
+NOK,Nokia Corporation Sponsored,5.55,-0.53763,66677071,30519853056,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,67,Low volatility or sideways movement
+BBD,Banco Bradesco Sa,3.3,0.0,62997201,32583006208,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+ACHR,Archer Aviation Inc.,10.86,-4.82033,62779145,7004985344,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,65,Low volatility or sideways movement
+RF,Regions Financial Corporation,24.11,-1.02627,62130435,21513553920,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,63,Low volatility or sideways movement
+CIFR,Cipher Mining Inc.,16.11,-10.871369,62853758,6575951360,Most Active,2025-10-22 19:12:24 EST,SELL,86,Bearish reversal or heavy sell-off
+PLTR,Palantir Technologies Inc.,175.49,-3.3166158,57608870,408615682048,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+NVTS,Navitas Semiconductor Corporati,13.605,-9.48104,54362228,2899324416,Most Active,2025-10-22 19:12:24 EST,SELL,85,Bearish reversal or heavy sell-off
+AMD,"Advanced Micro Devices, Inc.",230.23,-3.276899,57075407,373627289600,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,68,Low volatility or sideways movement
+AAL,"American Airlines Group, Inc.",12.09,-2.105265,55874553,7977330176,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,62,Low volatility or sideways movement
+ONDS,Ondas Holdings Inc.,6.74,-6.2586966,52973538,2490594560,Most Active,2025-10-22 19:12:24 EST,SELL,84,Bearish reversal or heavy sell-off
+IREN,IREN LIMITED,51.83,-6.096563,52771497,15507828736,Most Active,2025-10-22 19:12:24 EST,SELL,89,Bearish reversal or heavy sell-off
+QS,QuantumScape Corporation,13.58,-12.5,56348899,7607337984,Most Active,2025-10-22 19:12:24 EST,SELL,92,Bearish reversal or heavy sell-off
+ABEV,Ambev S.A.,2.2,-0.9009,51298683,35308322816,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,70,Low volatility or sideways movement
+NIO,NIO Inc.,6.84,0.588235,52227840,16059430912,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,62,Low volatility or sideways movement
+HPE,Hewlett Packard Enterprise Comp,23.09,-0.773529,50448518,30466103296,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,57,Low volatility or sideways movement
+QUBT,Quantum Computing Inc.,14.87,-7.062501,51132051,3814821888,Most Active,2025-10-22 19:12:24 EST,SELL,84,Bearish reversal or heavy sell-off
+VALE,VALE S.A.,11.52,2.21828,49286445,49176334336,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,65,Low volatility or sideways movement
+GRAB,Grab Holdings Limited,5.62,0.35714254,48314064,23073939456,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,65,Low volatility or sideways movement
+WBD,"Warner Bros. Discovery, Inc. - ",20.53,0.98377156,50805713,50827603968,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,59,Low volatility or sideways movement
+APLD,Applied Digital Corporation,30.62,-5.90043,46207970,9011392512,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+RXRX,"Recursion Pharmaceuticals, Inc.",5.75,-5.8919826,44882025,2470832384,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,64,Low volatility or sideways movement
+PFE,"Pfizer, Inc.",24.72,-0.523143,42847776,140546801664,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,66,Low volatility or sideways movement
+JOBY,"Joby Aviation, Inc.",15.47,-3.91304,42093797,13784644608,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,64,Low volatility or sideways movement
+SOUN,"SoundHound AI, Inc.",17.76,-2.578164,42828549,7554277376,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,56,Low volatility or sideways movement
+MARA,"MARA Holdings, Inc.",19.15,-4.5839567,41161703,7094268416,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,69,Low volatility or sideways movement
+WULF,TeraWulf Inc.,12.615,-3.9954379,40152967,5485157888,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+RIVN,"Rivian Automotive, Inc.",12.92,-2.12121,41316192,15627018240,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,65,Low volatility or sideways movement
+SNAP,Snap Inc.,7.77,-1.01911,39273996,12795476992,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,55,Low volatility or sideways movement
+UUUU,Energy Fuels Inc,22.74,10.2278,39788937,5338355712,Most Active,2025-10-22 19:12:24 EST,BUY,91,Premarket breakout momentum
+IONQ,"IonQ, Inc.",55.45,-6.80672,36544845,20378687488,Most Active,2025-10-22 19:12:24 EST,SELL,83,Bearish reversal or heavy sell-off
+RKT,"Rocket Companies, Inc.",17.34,1.76056,36087903,36599291904,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,64,Low volatility or sideways movement
+AMZN,"Amazon.com, Inc.",217.95,-1.8375903,41614696,2324417478656,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,55,Low volatility or sideways movement
+BTG,B2Gold Corp,5.21,0.579155,36131046,7370280448,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,70,Low volatility or sideways movement
+AAPL,Apple Inc.,258.45,-1.6440146,41141265,3835498856448,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,60,Low volatility or sideways movement
+BAC,Bank of America Corporation,51.1,-0.815221,34812774,374533455872,Most Active,2025-10-22 19:12:24 EST,NEUTRAL,61,Low volatility or sideways movement
+SMR,NuScale Power Corporation,34.72,-9.51263,38724679,5361178624,Most Active,2025-10-22 19:12:24 EST,SELL,91,Bearish reversal or heavy sell-off
