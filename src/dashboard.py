@@ -91,7 +91,7 @@ else:
     # ---- Stock Tables ----
     for label, cat in zip(tabs[:3], ["Top Gainers", "Top Losers", "Most Active"]):
         with label:
-            sub = df[df["category"] == cat]
+            sub = df[df["sector"] == cat]
             if not sub.empty:
                 st.dataframe(
                     sub[[
