@@ -1,0 +1,26 @@
+timestamp,ticker,sector,price,pct_change,volume,rel_volume,signal,confidence,reason
+2025-10-21 19:57:45,T,Communication Services,26.05,0,0,0.0,SELL,18.4,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,DNN,Materials,2.72,0,0,0.0,SELL,16.7,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,HPE,Technology,23.27,0,0,0.0,SELL,16.6,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,OPEN,Real Estate,6.96,0,0,0.0,SELL,15.0,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,WBD,Communication Services,20.33,0,0,0.0,SELL,12.4,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,GRAB,Technology,5.6,0,0,0.0,SELL,11.8,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,BBAI,Technology,7.08,0,0,0.0,SELL,11.6,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,CLF,Materials,13.39,0,0,0.0,SELL,11.6,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,NVDA,Technology,181.16,0,0,0.0,SELL,11.5,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,PLUG,Energy,3.12,0,0,0.0,SELL,11.0,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,TSLA,Consumer Discretionary,442.6,0,0,0.0,SELL,10.2,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,ACHR,Industrials,11.41,0,0,0.0,SELL,9.9,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,F,Consumer Discretionary,12.56,0,0,0.0,SELL,8.4,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,RF,Financials,24.36,0,0,0.0,SELL,7.9,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,INTC,Technology,38.12,0,0,0.0,SELL,7.8,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,BTG,Materials,5.18,0,0,0.0,SELL,5.9,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,RIG,Energy,3.31,0,0,0.0,SELL,5.4,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,RGTI,Technology,40.0,0,0,0.0,SELL,5.3,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,RXRX,Health Care,6.11,0,0,0.0,SELL,4.7,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,BITF,Technology,4.49,0,0,0.0,SELL,4.7,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,NVTS,Technology,15.03,0,0,0.0,SELL,4.2,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,EOSE,Energy,16.3,0,0,0.0,SELL,4.1,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,ABEV,Consumer Staples,2.22,0,0,0.0,SELL,1.6,Low momentum / volume tapering detected.
+2025-10-21 19:57:46,QUBT,Technology,16.0,0,0,0.0,SELL,1.3,Low momentum / volume tapering detected.
+2025-10-21 19:57:45,JOBY,Industrials,16.1,0,0,0.0,SELL,0.3,Low momentum / volume tapering detected.
