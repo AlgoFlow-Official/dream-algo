@@ -1,139 +1,123 @@
-# src/dashboard.py
-"""
-Dream Algo — V1.7 Universal Dashboard (Phase 22 Final)
-Live AI market scanner + sentiment heat map + global news feed.
-"""
+# ==============================================
+# 💎 Dream Algo V1.7 — Universal AI Market Dashboard
+# Real-time market analytics • 4 AM – 8 PM EST
+# ==============================================
 
 import streamlit as st
 import pandas as pd
+import numpy as np
+import time
 from datetime import datetime
-import pytz
-import os
-import plotly.express as px
 
-from sentiment_engine import compute_market_mood
-from news_engine import get_market_news
-
-# -------- CONFIG --------
-MARKET_TZ = pytz.timezone("US/Eastern")
-DATA_PATH = "data/live_movers.csv"
-REFRESH_SEC = 60
-
-# -------- PAGE SETTINGS --------
-st.set_page_config(page_title="Dream Algo — Global Dashboard", layout="wide")
+# ------------------------------
+# App Config
+# ------------------------------
+st.set_page_config(page_title="Dream Algo Dashboard", layout="wide")
 st.title("💎 Dream Algo V1.7 — Universal AI Market Dashboard")
 st.caption("Real-time market analytics • 4 AM – 8 PM EST")
 
-# -------- LOAD DATA --------
-@st.cache_data(ttl=REFRESH_SEC)
-def load_data():
-    if not os.path.exists(DATA_PATH):
-        return pd.DataFrame()
-    try:
-        return pd.read_csv(DATA_PATH)
-    except Exception:
-        return pd.DataFrame()
+DATA_PATH = "data/live_movers.csv"
+REFRESH_INTERVAL = 60  # seconds
 
-df = load_data()
-now_est = datetime.now(MARKET_TZ).strftime("%Y-%m-%d %H:%M EST")
+# ------------------------------
+# Load Data Safely
+# ------------------------------
+try:
+    df = pd.read_csv(DATA_PATH)
+    st.markdown(f"🕒 **Last Updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S EST')}")
+    st.markdown(f"📁 **Rows Loaded:** {len(df)}")
+except Exception as e:
+    st.error(f"⚠️ Failed to load data: {e}")
+    st.stop()
 
-# -------- SIDEBAR STATUS --------
-st.sidebar.markdown(f"**🕒 Last Updated:** {now_est}")
-st.sidebar.markdown(f"**📁 Rows Loaded:** {len(df)}")
-st.sidebar.markdown(f"**⚙️ Auto-Refresh:** {REFRESH_SEC} sec")
+# ------------------------------
+# Clean & Prepare Columns
+# ------------------------------
+df.columns = [c.strip().lower().replace("%", "pct").replace(" ", "_") for c in df.columns]
 
-# -------- MARKET MOOD GAUGE --------
-if not df.empty:
-    mood = compute_market_mood(df)
-    color = "🟢" if mood["mood"] == "Bullish" else "🔴" if mood["mood"] == "Bearish" else "🟡"
-    st.markdown(f"### 🧭 Overall Market Mood: {color} **{mood['mood']}** (score = {mood['score']})")
+expected_cols = [
+    "timestamp", "ticker", "sector", "price", "pct_change",
+    "volume", "rel_volume", "signal", "confidence", "reason"
+]
 
-# -------- MAIN DATA --------
-if df.empty:
-    st.warning("No live data yet — wait for the scanner to update.")
-else:
-    st.success("✅ Live data loaded successfully")
+# Add missing columns with defaults (to prevent KeyErrors)
+for col in expected_cols:
+    if col not in df.columns:
+        df[col] = np.nan
 
-    # Simulated sectors if not provided
-    if "sector" not in df.columns:
-        sectors = [
-            "Technology", "Healthcare", "Finance", "Energy",
-            "Industrials", "Consumer", "Utilities", "Materials"
-        ]
-        df["sector"] = [sectors[i % len(sectors)] for i in range(len(df))]
-
-    # -------- SECTOR HEAT MAP --------
-    sector_perf = (
-        df.groupby("sector")["pct_change"]
+# ------------------------------
+# Market Mood (based on confidence & signal)
+# ------------------------------
+if "confidence" in df.columns and "signal" in df.columns:
+    mood_score = (
+        df.apply(lambda x: x["confidence"] if str(x["signal"]).upper() == "BUY" else -x["confidence"], axis=1)
         .mean()
-        .reset_index()
-        .sort_values("pct_change", ascending=False)
+        if len(df) > 0 else 0
     )
-    fig = px.treemap(
-        sector_perf,
-        path=["sector"],
-        values="pct_change",
-        color="pct_change",
-        color_continuous_scale="RdYlGn",
-        title="📊 Sector Performance Heat Map (Avg % Change)"
-    )
-    st.plotly_chart(fig, use_container_width=True)
+else:
+    mood_score = 0
 
-    # -------- TABS SECTION --------
-    tabs = st.tabs([
-        "🔥 Top Gainers",
-        "📉 Top Losers",
-        "📊 Most Active",
-        "🧠 All Combined",
-        "📰 Market Buzz"
-    ])
+mood_label = "🟢 Bullish" if mood_score > 10 else ("🟡 Neutral" if -10 <= mood_score <= 10 else "🔴 Bearish")
 
-    # ---- Stock Tables ----
-    for label, cat in zip(tabs[:3], ["Top Gainers", "Top Losers", "Most Active"]):
-        with label:
-            sub = df[df["sector"] == cat]
-            if not sub.empty:
-                st.dataframe(
-                    sub[[
-                        "ticker", "name", "price", "pct_change",
-                        "volume", "signal", "confidence", "reason", "sector"
-                    ]],
-                    width="stretch",
-                    hide_index=True,
-                )
+st.markdown(f"🧭 **Overall Market Mood:** {mood_label} *(score = {round(mood_score/100, 2)})*")
+st.success("✅ Live data loaded successfully")
+
+# ------------------------------
+# Heat Map by Sector (Average % Change)
+# ------------------------------
+st.subheader("📊 Sector Heat Map")
+if "sector" in df.columns and "pct_change" in df.columns:
+    try:
+        sector_summary = df.groupby("sector")["pct_change"].mean().sort_values(ascending=False)
+        st.bar_chart(sector_summary)
+    except Exception:
+        st.warning("⚠️ Could not generate sector summary.")
+else:
+    st.warning("⚠️ Missing required columns for heatmap (`sector` or `pct_change`).")
+
+# ------------------------------
+# Data Categories
+# ------------------------------
+st.subheader("🔥 Top Gainers / 📉 Top Losers / 📊 Most Active / 🧠 All Combined")
+
+try:
+    if "pct_change" in df.columns:
+        top_gainers = df.sort_values("pct_change", ascending=False).head(10)
+        top_losers = df.sort_values("pct_change", ascending=True).head(10)
+    else:
+        top_gainers = df.head(0)
+        top_losers = df.head(0)
+
+    most_active = df.sort_values("volume", ascending=False).head(10) if "volume" in df.columns else df.head(0)
+    combined = df.head(25)
+
+    tabs = st.tabs(["🔥 Top Gainers", "📉 Top Losers", "📊 Most Active", "🧠 All Combined"])
+    for cat, subdf in zip(["Gainers", "Losers", "Active", "Combined"], [top_gainers, top_losers, most_active, combined]):
+        with tabs[["Gainers", "Losers", "Active", "Combined"].index(cat)]:
+            if len(subdf) > 0:
+                available_cols = [col for col in expected_cols if col in subdf.columns]
+                st.dataframe(subdf[available_cols])
             else:
                 st.info("No data for this category right now.")
 
-    # ---- Combined ----
-    with tabs[3]:
-        st.dataframe(
-            df[[
-                "ticker", "name", "price", "pct_change",
-                "volume", "signal", "confidence", "reason", "sector", "category"
-            ]],
-            width="stretch",
-            hide_index=True,
-        )
+except Exception as e:
+    st.warning(f"⚠️ Error generating table: {e}")
 
-    # ---- Market Buzz News Feed ----
-    with tabs[4]:
-        st.subheader("📰 Top Market Headlines — AI Classified")
-        try:
-            news_df = get_market_news(30)
-            if news_df.empty:
-                st.warning("No news fetched yet.")
-            else:
-                st.dataframe(
-                    news_df[["source", "headline", "category", "published"]],
-                    hide_index=True,
-                    width="stretch",
-                )
-        except Exception as e:
-            st.error(f"⚠️ News fetch error: {e}")
+# ------------------------------
+# News Section (optional integration)
+# ------------------------------
+st.subheader("📰 Market Buzz")
+try:
+    buzz = pd.read_csv("data/market_buzz.csv")
+    if not buzz.empty:
+        st.dataframe(buzz.head(10))
+    else:
+        st.info("No news available yet.")
+except Exception:
+    st.info("Market buzz file not found yet.")
 
-# -------- AUTO-REFRESH (Meta) --------
-st.toast(f"🔄 Auto-refresh every {REFRESH_SEC} sec…", icon="⏱️")
-st.markdown(
-    f"<meta http-equiv='refresh' content='{REFRESH_SEC}'>",
-    unsafe_allow_html=True,
-)
+# ------------------------------
+# Auto Refresh Notice
+# ------------------------------
+st.markdown(f"⚙️ Auto-refresh every **{REFRESH_INTERVAL} sec**")
+
